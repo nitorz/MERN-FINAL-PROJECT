@@ -1,0 +1,16 @@
+%% ERD for SDG Tracker (Mermaid)
+erDiagram
+    USERS {
+        ObjectId _id PK
+        string name
+        string email
+        date createdAt
+    }
+    HABITS {
+        ObjectId _id PK
+        ObjectId userId FK
+        string title
+        string category
+        date date
+    }
+    USERS ||--o{ HABITS : "has"

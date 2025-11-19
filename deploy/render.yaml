@@ -1,0 +1,10 @@
+services:
+  - type: web
+    name: sdg-tracker-server
+    env: node
+    plan: free
+    buildCommand: 'npm install'
+    startCommand: 'node server.js'
+    envVars:
+      - key: MONGO_URI
+        value: <YOUR_MONGO_URI>

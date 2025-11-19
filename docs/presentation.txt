@@ -1,0 +1,7 @@
+SDG Tracker — Presentation (placeholder)
+Slides:
+1. Title & Vision (SDG 12)
+2. Problem & Solution
+3. Architecture
+4. Demo screenshots
+5. Roadmap
