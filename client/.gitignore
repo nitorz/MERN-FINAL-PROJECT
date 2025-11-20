@@ -1,0 +1,6 @@
+node_modules/
+/build
+/dist
+.env
+# Add any cache or temp files here, e.g.,
+.cache/
