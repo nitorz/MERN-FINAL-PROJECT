@@ -1,0 +1,16 @@
+{
+  "name": "sdg-tracker",
+  "root": "./", 
+  "build": {
+    "backend": "cd server && npm install && npm run build",
+    "frontend": "cd client && npm install && npm run build"
+  },
+  "start": {
+    "backend": "cd server && node index.js"
+  },
+  "env": {
+    "MONGO_URI": "YOUR_MONGO_URI",
+    "JWT_SECRET": "YOUR_JWT_SECRET",
+    "NODE_ENV": "production"
+  }
+}
