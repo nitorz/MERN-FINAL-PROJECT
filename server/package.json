@@ -3,8 +3,9 @@
   "version": "1.0.0",
   "type": "module",
   "scripts": {
+    "dev": "nodemon --ignore '../client/build/*' --ignore '*.log' index.js",
     "start": "node index.js",
-  "dev": "nodemon index.js",
+    "dev": "nodemon index.js",
     "test": "node --experimental-vm-modules node_modules/jest/bin/jest.js --runInBand"
   },
   "dependencies": {
@@ -14,7 +15,7 @@
     "express": "^4.18.2",
     "helmet": "^6.0.1",
     "jsonwebtoken": "^9.0.0",
-    "mongoose": "^7.0.0",
+    "mongoose": "^7.8.7",
     "socket.io": "^4.8.1"
   },
   "devDependencies": {

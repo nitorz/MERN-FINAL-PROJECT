@@ -9,7 +9,7 @@ import { Server as IOServer } from "socket.io";
 // Routers
 import habitRoutes from "./routes/habitRoutes.js";
 import authRoutes from "./routes/authRoutes.js";
-import achievementsRouter from "./routes/achievements.js";
+import achievementsRouter from "./routes/Achievements.js";
 import leaderboardRoutes from "./routes/leaderboard.js";
 
 dotenv.config();
